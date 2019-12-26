@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Welcome to the DevConnector</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fas fa-code"></i> DevConnector
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Developers</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="dashboard.html">
+                    <i class="fas fa-user"></i>
+                    <span class="hide-sm">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="login.html">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="hide-sm">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="container">
+        <h1 class="large text-primary">
+            Dashboard
+        </h1>
+        <p class="lead">
+            <i class="fas fa-user"></i> Welcome Kishan Sheth
+        </p>
+        <div class="dash-buttons">
+            <a href="create-profile.html" class="btn">
+                <i class="fas fa-user-circle text-primary"></i> Edit Profile
+            </a>
+            <a href="add-experience.html" class="btn">
+                <i class="fab fa-black-tie text-primary"></i> &nbsp;Add Expierience
+            </a>
+            <a href="add-education.html" class="btn">
+                <i class="fas fa-graduation-cap text-primary"></i> Edit Education
+            </a>
+        </div>
+        <h2 class="my-2">
+            Experience Credentials
+        </h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th class="hide-sm">Title</th>
+                    <th class="hide-sm">Years</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shashaan Web Solutions</td>
+                    <td class="hide-sm">CEO</td>
+                    <td class="hide-sm">May 2018 - Current</td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Meeky Webhosting</td>
+                    <td class="hide-sm">CEO</td>
+                    <td class="hide-sm">May 2015 - May 2018</td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+        <h2 class="my-2">
+            Education Credentials
+        </h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>School</th>
+                    <th class="hide-sm">Degree</th>
+                    <th class="hide-sm">Years</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nirma University</td>
+                    <td class="hide-sm">B.Tech</td>
+                    <td class="hide-sm">May 2018 - Current</td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Atmiya University</td>
+                    <td class="hide-sm">Diploma</td>
+                    <td class="hide-sm">May 2015 - May 2018</td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <div class="my-2">
+            <button class="btn btn-danger">
+                <i class="fas fa-user-minus"></i> Delete My Account
+            </button>
+        </div>
+
+    </section>
+</body>
+<script src="https://kit.fontawesome.com/a5cc5116eb.js" crossorigin="anonymous"></script>
+
+</html>
